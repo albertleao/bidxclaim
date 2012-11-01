@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+/* ============?????============*/
+body{background:#135c89 url(../images/body_bg.gif) repeat-x; font-size:12px;font-family:Tahoma;  width:996px; margin:0 auto;}
+*{margin:0;padding:0; border:none;}
+input,select,textarea{font-size:12px;line-height:16px; vertical-align:middle; color:#595858; margin-right:4px;}
+img{border:0;}
+ul,li{list-style-type:none; margin:0; padding:0;}
+.cl{clear:both; font-size:0; line-height:0; overflow:hidden;  margin:0; padding:0; height:0;}
+a{ color:#44ACD9; text-decoration:none;}
+a:hover{ text-decoration:underline;}
+.f_l{ float:left;}
+.f_r{ float:right;}
+.red{ color:red}
+/* ============?????============*/
+/* ============top?============*/
+.top{ margin:0 auto; width:960px; padding-top:94px; background:url(../images/top.jpg)  no-repeat; }
+.nav{ background:url(../images/nav_bg.gif)  repeat-x;  height:43px;}
+.nav object{ float:left; display:inline; margin-left:115px;}
+.menu_r{ float:right; display:inline; margin-right:46px; margin-top:10px;}
+/* ============top?============*/
+.thecon{ clear:both; margin-left:21px;}
+.ccbit{ margin:4px 0;}
+.thecon th,.thecon_1 th{ color:#fff; background:#447097; height:26px; font-weight:normal; line-height:12px;}
+.thecon .thleft,.thecon_1 .thleft{ background:#447097 url(../images/table_th_left2.gif) no-repeat left top;}
+.thecon .thright,.thecon_1 .thright{ background:#447097 url(../images/table_th_right2.gif) right top no-repeat; border:none; }
+.tablebottom .thleft2,.tablebottom_1 .thleft2{ background:#447097 url(../images/table_th_left.gif) no-repeat left bottom; float:left; width:7px;height:26px;}
+.tablebottom .thright2,.tablebottom_1 .thright2{ background:#447097 url(../images/table_th_right.gif) right bottom no-repeat; float:right; width:5px; height:26px; }
+.page a{ color:#fff;  padding:0 2px; font-weight:bold;   }
+.disabled{color:#fff;padding:0 4px; margin-right:0 2px;}
+.page .pagehover, .page a:hover{ text-decoration:underline; color:#fff; font-weight:bold; }
+.tablebottom{ height:26px;background:#447097; width:704px; margin-left:21px; position:relative;}
+.pageview{ position:absolute; right:4px; top:4px; color:#fff;}
+.dis_select{ margin:0 4px; border:1px solid #fff; }
+.page{ text-align:center; line-height:26px; float:left; width:692px; color:#fff;}
+.thecon .tablebottom span{ padding-left:50%;}
+.thecon td,.thecon_1 td{ text-align:center; height:28px; border-bottom:1px solid #deecf9;}
+.thecon tr .thecon_tdleft,.thecon_1 tr .thecon_tdleft{ text-align:left;}
+.thecon tr .thecon_tdright,.thecon_1 tr .thecon_tdright{ text-align:right;}
+.thecon a,.thecon_1 a{ color:#4bafe0;}
+.thecon td .newreg{ color:#fff; background:url(../images/ico_bg3.gif) no-repeat; display:block; text-align:center; line-height:18px; width:77px; margin:auto;}
+.thecon td .newreg:hover{ font-weight:normal; text-decoration:underline;}
+.thecon{word-wrap:break-word;word-break:break-all;overflow:hidden; background:#fff; }
+.thecon th a,.thecon_1 th a{ color:#fff;}
+.thecon th a:hover,.thecon_1 th a:hover{ text-decoration:none; font-weight:normal;}
+.thecon th img,.thecon_1 th img{ margin:0px 0 0 2px;}
+.thecon td table{margin:0 auto;}
